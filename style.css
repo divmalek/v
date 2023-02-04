@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Rubik', sans-serif !important;
+
+}
+.parent{
+    overflow: hidden;
+}
+.navbar{
+    padding-top: 40px !important;
+    font-size: 18px;
+}
+
+.navbar img{
+    width:200px;
+}
+.nav-link{
+    margin-left: 30px;
+    color: #4F5665 !important;
+    /* text-align:center ; */
+
+}
+/* .home-btn{
+    background-color: #23BB86;
+    
+    color:#fff !important;
+    border-radius: 50px;
+} */
+.sn-btn{
+    font-weight: 700 !important;
+    margin: 0 25px;
+}
+.sg-btn{
+    color:#23BB86 !important;
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #23BB86;
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+    
+    
+}
+.texty{
+    width: 40%;
+}
+/* .limg{
+    width: 40%;
+} */
+.landing img{
+    width:600px;
+}
+.landing{
+    padding: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    border-radius: 50px;
+    box-shadow: 5px  10px #000;
+}
+.landing h2{
+    font-size: 50px;
+    margin: 40px 0;
+}
+.landing span{
+    font-weight: 800;
+}
+.landing p{
+    color:gray;
+    font-size: 20px;
+    margin: 40px 0;
+
+}
+.landing a{
+    background-color: #23BB86;
+    padding: 15px 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 5px  10px #00603f;
+    font-weight: 700;
+    transition: 0.6s;
+
+
+}
+.landing a:hover{
+    background-color:#029763 ;
+}
+.infr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    
+    flex-wrap: wrap;
+
+    
+}
+
+
+.user{
+   
+    
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    background-color: #F6F6F6;
+    padding: 50px 80px; 
+    border-radius: 50px;
+    width: 335px;
+    justify-content: center;
+    box-shadow: 5px  10px #000;
+
+    
+    
+    
+
+
+
+    
+}
+
+.user h5{
+    color: gray;
+}
+.icon img{
+    width: 100px;
+    margin-right: 20px;
+}
+.fximg img{
+    width: 500px;
+}
+.features{
+    margin-top: 50px;
+    
+}
+.flexy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    gap: 30px;
+    border-radius: 50px;
+    padding: 30px;
+    box-shadow: 5px  10px #000;
+    
+}
+.fxtx{
+    width: 40%;
+    margin-top: 60px;
+
+    
+}
+
+
+.flexy h2{
+    font-size: 50px;
+    /* margin-bottom: 30px; */
+}
+.flexy p{
+    color : gray;
+    font-size: 20px;
+    
+}
+
+.true p{
+    font-size: 16px;
+    display: inline-block;
+}
+.true img{
+    width: 30px;
+    
+}
+.pf {
+    margin-top: 70px;
+    text-align: center;
+}
+.pf h3{
+    font-size: 35px;
+}
+.pf p{
+    font-size: 20px;
+    color: gray ;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards img{
+    width: 200px;
+}
+.cardone{
+height: 760px;
+width: 330px;
+border: 2px solid #DDDDDD;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+
+
+}
+.cardtwo{
+   height: 760px;
+   width: 330px;
+   border: 2px solid #DDDDDD   ;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   
+   }
+   .cardthree{
+   height: 760px;
+   width: 330px;
+   border: 2px solid #23BB86;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   
+   }
+   .true img{
+    width:30px;
+   }
+   .floxy p{
+    display: inline-block;
+   }
+   .cards h3{
+    margin: 50px 0;
+   }
+   .fbn{
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+    
+   }
+   .fbn h4{
+    margin: 20px 0;
+   }
+   .fbn span{
+    color:gray;
+   }
+   .fbn a{
+    background-color: transparent;
+    border: 1px solid #00603f;
+    border-radius: 50px;
+    color:#00603f;
+    text-decoration: none;
+    padding: 8px 30px;
+    
+   }
+   .world{
+    margin-top: 50px;
+   }
+   .wfo{
+    text-align: center;
+   }
+   .wfo h2{
+    font-size:40px ;
+   }
+   .wfo p{
+    color:gray;
+   }
+   .geo img{
+    width: 800px;
+    display: block;
+    margin:50px auto auto;
+   }
+  .spon img{
+    width: 300px;
+    
+    
+  }
+  .spon{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:  50px 0;
+
+    
+    
+  }
+  .tfo{
+    text-align: center;
+  }
+  .tfo p{
+    color:gray;
+  }
+  .tpo img{
+    width: 50px;
+  }
+  .tpo h6{
+    display: inline-block;
+    margin: 0 10px;
+    
+  }
+  .tcn {
+    margin: 15px 0;
+  }
+  .tcrads{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap:wrap ;
+    gap: 30px;
+    
+  }
+  .tdc{
+    width: 400px;
+    height:210px ;
+    border: 2px solid #23BB86;
+    padding: 15px;
+    border-radius: 20px;
+
+  }
+  .subsp{
+    margin-top: 60px;
+  }
+  .subs{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    border-radius: 50px;
+    padding: 50px;
+    box-shadow: 5px  10px #000;
+  }
+  .sb p{
+    color:gray;
+    font-size: 20px;
+  }
+  .sb h2{
+    font-size: 35px ;
+  }
+  .sb a{
+    background-color: #23BB86;
+    padding: 15px 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 5px  10px #00603f;
+    font-weight: 700;
+    transition: 0.6s;
+  }
+  .sb a:hover{
+    background-color:#029763 ;
+}
+  .footer{
+    margin-top: 70px;
+  }
+  .rone{
+    /* width:20%; */
+    text-align: center;
+    background-color: #F6F6F6;
+    width: 200px;
+    box-shadow: 5px  10px #000;
+    border-radius: 20px;
+    width:300px;
+    height: 200px;
+    padding-top:30px ;
+    margin:20px ;
+    
+
+
+    
+    
+  }
+ 
+  .rone p{
+    color:gray;
+    margin: 20px 0;
+  }
+  .falxy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .rone a {
+    color:gray;
+    text-decoration: none;
+    
+  }
+  .rone h4{
+    font-size: 35px;
+    margin: 15px 0;
+  }
+  .product h5{
+    font-size: 17px;
+  }
+  .copyg img{
+    width: 120px;
+  }
+  .copyg{
+    font-weight: 700;
+     color:#000;
+     letter-spacing:1px ;
+     text-align: center;
+     margin-top: 50px;
+     margin-right: 20px;
+  }
+  @media (max-width:1200px) {
+    .navbar{
+        font-size: 16px;
+    }
+    .texty{
+        width: 100%;
+        text-align: center;
+        margin-bottom:30px;
+    }
+    .fxtx{
+        width: 100%;
+        
+    }
+    .fxtx h2,p {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+   
+                
+            
+    }
+    @media (max-width:1000px){
+        .geo img {
+             width:600px
+        }
+    }
+    @media (max-width:800px) {
+        .landing img{
+            width:400px;
+        }
+        .fximg img{
+            width: 300px;
+        }
+        .fxtx h2{
+            font-size: 30px;
+        }
+        .features p{
+            font-size: 16px;
+        }
+        .geo img {
+            width:400px
+       }
+       .wfo h2{
+        font-size: 30px;
+       }
+       .wfo p{
+        font-size:16px ;
+       }
+    }
+    @media (max-width:420px) {
+        .landing img {
+            width: 300px;
+        }
+        .landing h2{
+            font-size: 30px;
+        }
+        .landing p{
+            font-size: 16px;
+        }
+        .landing a{
+            font-size: 16px;
+        }
+        .sb a{
+            font-size: 16px;
+            padding: 10px;
+        }
+        .sb h2{
+            font-size: 20px;
+        }
+        .sb p{
+            font-size: 16px;
+        }
+    }
+    @media (max-width:500px) {
+        .geo img{
+            width: 250px;
+        }
+        .spon img{
+            width: 200px;
+            margin: 0 0 20px;
+        }
+
+    }
+    @media (max-width:400px) {
+        .cardone , .cardtwo , .cardthree{
+            width: 250px;
+        }
+        .user{
+            width: 250px;
+        }
+    }
+    
+         
+        
+
+            
+        
